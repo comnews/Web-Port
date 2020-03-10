@@ -1,0 +1,13 @@
+.temp{
+    background-color: rgb(95, 220, 252);
+    padding: 20px;
+    margin: 30px;
+    box-shadow: rgb(88, 88, 88) 15px 15px 40px;
+  
+}
+.body{
+    background-color: rgb(198, 244, 255);
+}
+.temp > input {
+    margin: 10px;
+}

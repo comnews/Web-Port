@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pic/clound.jpg);
+    background-size: cover;
+}
+
+.grid-main-img > img{
+    width: 100%;
+    
+    
+}
+.grid-fotter-img > img{
+    width: 30%;
+    height: 30%;
+}
+
+ul.header_menu{
+    list-style-type: none;
+    
+   }
+.test{
+    color: white;
+}
+.grid-container{
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: black 15px 15px 40px;
+ 
+   
+}
+html { scroll-behavior : smooth; }
+.header{
+    width: 100%;
+    height: 50px;
+    background:rgb(10, 85, 247);
+}
+.nav-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background:rgb(0, 174, 255);
+    padding: 50px;
+    color: white;
+}
+
+.grid-main > div{
+    margin-left: 30px;
+}
+.grid-main-text >p{
+    font-size: 20px
+    
+}
+.grid-icon{
+    margin-top: 5px;
+    padding-left: 80px;
+    color: wheat
+   
+}
+ul.header_menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5px;
+  
+  
+    
+}
+.linkproject > a {
+    font-size: 30px;
+}
+ul.header_menu li a{
+   
+    font-size: 20px;
+    color: rgb(0, 174, 255);
+    
+}
+ul.header_menu li a:hover {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.skill_bullet,.interest_bullet,.Hobbie_bullet > li{
+    font-size: 25px;
+}
+
+ul li{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+/* this is my Footer +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.grid-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-bottom: 50px;
+    background:rgb(236, 236, 236);
+}
+ul {
+    list-style-position: inside;
+}
+.grid-footer > div {
+  
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background:rgb(236, 236, 236);
+    text-align: center;
+}
+.grid-content-project > div{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+}
+.grid-content-project{
+  
+    background:rgb(236, 236, 236);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+.grid-content-project-maya > div > img  {
+   width: 100%;
+}
+.grid-content-project-maya > div  {
+    margin: 20px;
+    
+ }
+.maya{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+  
+}
+.maya_content{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+   
+ }
+.grid-content-project-maya{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgb(128, 128, 128) 15px 15px 40px;
+    background:rgb(236, 236, 236);
+    padding: 50px;
+    padding-top: 800px;
+    border-radius: 25px;
+    
+    
+}
+
+/* this is my Content +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.grid-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background:rgb(236, 236, 236);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.grid-content > div {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(114, 114, 114) 15px 15px 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 25px;
+}
+.grid-content-skill > ul {
+    list-style-type: none;
+}
+.grid-content-interest > ul {
+    list-style-type: none;
+}
+.grid-content-Hobbie > ul {
+    list-style-type: none;
+}
+.project-zimg > img {
+    width: 100%;
+ 
+    
+}
+
+
+.Hobbie_bullet  > li > i{
+    font-size:30px;
+}
+.skill_bullet > li > i{
+    font-size:30px;
+}
+.interest_bullet > li > i{
+    font-size: 30px;
+}
+
+.Hobbie_bullet  > i{
+    font-size:50px;
+}
+.skill_bullet > i{
+    font-size:50px;
+}
+.interest_bullet > i{
+    font-size: 50px;
+}
+i{
+    margin-left: 5px;
+}
+.Contact_bullet > li {
+    font-size: 20px;
+}
+@media only screen and (max-width: 1300px){
+    .grid-main{
+       
+        grid-template-columns: 1fr 3fr;
+        padding: 50px;
+    }
+    .grid-content-project{
+  
+    
+      
+        padding-right: 120px;
+        padding-left: 120px;
+        
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    
+    .grid-content{
+
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;      
+    }
+    .grid-content > div {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 950px){
+
+    .grid-content{
+
+   
+       
+        padding-right: 200px;
+        padding-left: 200px;      
+        }
+    .header{
+        height: auto;
+    }
+    .nav-grid{
+        text-align: center;
+    }
+    ul.header_menu{
+        grid-template-columns: 1fr
+    }
+    ul.header_menu li{
+        height: 1.5rem;
+    }
+
+    .grid-main{
+        
+        grid-template-columns: 1fr;
+
+        
+    }
+    .grid-main-img > img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        }
+
+    .grid-main > div { 
+        
+        margin-top: 50px; 
+        }
+    .nav-grid{
+        grid-template-columns: 1fr;
+        background:rgb(10, 85, 247);
+    }
+    
+   
+}
+
+@media only screen and (max-width: 960px){
+    .grid-footer{
+
+        grid-template-columns: 1fr  ;
+
+    }
+    .grid-footer > div {
+
+        margin-top: 60px;
+
+    }
+    
+}
+
+@media only screen and (max-width: 850px){
+    .grid-content-project-maya{
+
+        grid-template-columns: 1fr;
+           
+        }
+    .grid-content-project{
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+}
+
+@media only screen and (max-width: 770px){
+    
+    .grid-content{
+
+    grid-template-columns: 1fr  ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 120px;
+    padding-left: 120px;      
+    }
+
+}
